@@ -4,7 +4,12 @@
       "Bash(npm install *)",
       "Bash(npm --version)",
       "Bash(node *)",
-      "Bash(wails dev *)"
+      "Bash(wails dev *)",
+      "Bash(go build *)",
+      "Bash(wails build *)",
+      "Bash(\"/c/Program Files \\(x86\\)/NSIS/makensis.exe\" -DARG_WAILS_AMD64_BINARY=../../bin/wails-ui.exe project.nsi)",
+      "Bash(\"/c/Program Files \\(x86\\)/NSIS/makensis.exe\" -DARG_WAILS_AMD64_BINARY=\"G:/frpc/wails-ui/build/bin/wails-ui.exe\" project.nsi)",
+      "Bash(\"/c/Program Files \\(x86\\)/NSIS/makensis.exe\" -DARG_WAILS_AMD64_BINARY=\"G:\\\\\\\\frpc\\\\\\\\wails-ui\\\\\\\\build\\\\\\\\bin\\\\\\\\wails-ui.exe\" project.nsi)"
     ]
   }
 }
