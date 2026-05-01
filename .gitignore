@@ -1,0 +1,33 @@
+# Root packaging / local backups
+.src-upstream-git-backup/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Build outputs
+wails-ui/build/bin/
+wails-ui/dist/
+wails-ui/frontend/dist/
+wails-ui/FrpcWails.exe
+*.zip
+*.exe
+*.exe~
+*.msi
+
+# Frontend deps
+**/node_modules/
+
+# Runtime data
+**/frontend/wailsjs/runtime/
+**/frontend/package.json.md5
+
+# Go build cache artifacts in source tree
+src/frpc
+src/frpc-console.exe
+src/frpc-verify.exe
+src/frpc.exe
+src/frpc.exe~
+
+# Local config
+*.log
